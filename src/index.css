@@ -11,3 +11,252 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* html, body, #app, #app>div {
+  height: 100%
+} */
+
+html, body, #root, #root>div {
+  height: 100%
+}
+
+
+.required {
+  color: crimson;
+}
+
+/* .login-image{
+  background-image: url("https://images.hdqwalls.com/wallpapers/aurora-background-0i.jpg");
+} */
+
+.login-style {
+  padding-top: 85px;
+}
+
+.enclosing-div {
+  width: 535px;
+  height: 628px;
+  position: absolute;
+  top: 56px;
+  left: 500px;
+  border-radius: 11px;
+}
+
+.bringFront {
+  position: relative;
+  z-index: 1;
+}
+
+/* Header Component */
+
+#header-style{
+  height: 87px;
+  background-color: #EFFFF7;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+#logo{
+  width: 95px;
+  height: 87px;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.header-items{
+  margin-left: 104px;
+}
+
+.help-icons{
+  position: relative;
+  top: 6px;
+  right: 6px;
+}
+
+#vertical-line{
+  border-left: 1.5px solid #999999c4;
+  height: 87px;
+  position: absolute;
+  top: 0px;
+  right: 87px;
+}
+
+.user-image{
+  position: absolute;
+  top: 4px;
+  width: 70px;
+  height: 70px;
+}
+
+.user-details{
+  margin-left: 70px;
+}
+
+.edit-profile{
+  margin: 11px auto 0;
+}
+
+/* Header Component ends here */
+
+
+/* Dashboard component */
+
+.heading{
+  margin-top: 135px;
+  margin-bottom: 48px;
+}
+
+.working-on{
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  left: 160px;
+  vertical-align: top;
+}
+
+.watching{
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  left: 236px;
+  vertical-align: top;
+}
+
+.info{
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+
+.info:hover{
+  color: #3bc4ff;
+}
+
+.add-project{
+  width: 25%;
+  position: absolute;
+  right: 60px;
+  top: 270px;
+}
+
+.manage-projects{
+  width: 25%;
+  position: absolute;
+  right: 60px;
+  top: 460px;
+}
+
+
+.buttons{
+  width: 225px;
+  background-color: #DADADA;
+}
+
+/* Dashboard Component ends here */
+
+
+/* Footer Component */
+
+#footer-style{
+  /* position: fixed;
+  top: 100%; */
+  width: 100%;
+}
+
+.footer-icons{
+  margin: 0 20px 0;
+}
+
+#facebook{
+  color: #1877F2;
+}
+
+#instagram{
+  display: inline-block;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+  position: relative;
+  top: -1.2px;
+}
+
+#twitter{
+  color: #00acee;
+}
+
+#github{
+  color: #ffffff;
+}
+
+#linkedin{
+  color: #0072b1;
+}
+
+.copyright{
+  width: 24%;
+  margin: 12px auto 0;
+}
+
+/* Footer Component ends here */
+
+
+/* AddProject Component */
+
+.details-enclosed{
+  width: 50%;
+  margin: 32px auto 5px;
+}
+
+.input-fields{
+  margin-top: 25px;
+}
+
+#project-name{
+  height: 48px;
+}
+
+#project-desc{
+  height: 144px;
+}
+
+/* .input-buttons{
+  width: 50%;
+  border-radius: 0;
+} */
+
+/* #working-on-button{
+  
+}
+
+#watching-button{
+
+} */
+
+.back-button{
+  width: 20%;
+  border-radius: 6px;
+  margin-top: 30px;
+  background-color: #96D9FF;
+}
+
+.create-project-button{
+  width: 74%;
+  border-radius: 6px;
+  margin-left: 45px;
+  margin-top: 30px;
+  background-color: #95FFE5;
+}
+
+
+/* AddProject Component ends here */
