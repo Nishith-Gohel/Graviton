@@ -148,7 +148,6 @@ html, body, #root, #root>div {
   top: 460px;
 }
 
-
 .buttons{
   width: 225px;
   background-color: #DADADA;
@@ -160,8 +159,6 @@ html, body, #root, #root>div {
 /* Footer Component */
 
 #footer-style{
-  /* position: fixed;
-  top: 100%; */
   width: 100%;
 }
 
@@ -258,5 +255,91 @@ html, body, #root, #root>div {
   background-color: #95FFE5;
 }
 
-
 /* AddProject Component ends here */
+
+
+/* ProjectPage Component */
+
+#side-menu{
+  background-color: #CFCFCF;
+  width: 12%;
+  height: 100%;
+  position: fixed;
+  top: 87px;
+}
+
+.scrum-img{
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: -4px;
+  right: 2px;
+}
+
+.side-menu-icons{
+  position: relative;
+  top: 7px;
+  right: 2px;
+}
+
+.menu-items{
+  margin-left: 14px;
+}
+
+.list-items:hover{
+  background-color: grey;
+  color: white;
+}
+
+.list-items:hover .scrum-img{
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.project-title-gap{
+    margin: 9px auto 9px;
+}
+
+.team-top-gap{
+  margin-top: 25.5625em;
+}
+
+#content-div{
+  margin-left: 12%;
+  position: relative;
+  top: 87px;
+}
+
+.project-img{
+  width: 90px;
+  height: 90px;
+}
+
+.project-details-encloser{
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin-top: 2em;
+}
+
+.team-encloser{
+  width: 16%;
+  position: absolute;
+  top: 32px;
+  right: 48px;
+}
+
+.team{
+  padding: 5px 20px;
+  background-color: #E4E4E4;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.team-text{
+  font-weight: 400;
+}
+
+
+/* ProjectPage Component ends here */
+

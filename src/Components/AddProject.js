@@ -5,12 +5,10 @@ import { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 
 const AddProject = () => {
-    // let btn1 = document.getElementById("working-on-button"), btn2 = document.getElementById("watching-button");
 
     const [details, setDetails] = useState({
         name: "",
-        description: "",
-        category: ""
+        description: ""
     })
     
     const navigate = useNavigate();
@@ -33,7 +31,7 @@ const AddProject = () => {
                 projects.push(details);
                 localStorage.setItem("projects", JSON.stringify(projects));
             }
-            navigate("/");
+            navigate("/ProjectPage");
         }
     }
 
