@@ -3,25 +3,10 @@ import React from "react";
 const ProjectContent = () => {
   return (
     <>
-      <img
-        src="Images and SVGs/Project image.png"
-        alt="project image"
-        className="project-img ms-5 mt-3"
-      />
+      <img src="Images and SVGs/Project image.png" alt="project image" className="project-img ms-5 mt-3" />
       <div className="project-details-encloser">
         <h1 className="project-details">Test Project</h1>
-        <p className="project-details">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          consectetur quis, iure, at est modi optio cumque voluptate officiis
-          veritatis in. Quod, eius! Iure itaque, accusamus enim molestias
-          aliquam deserunt labore? Nesciunt libero repellat a sint. Consectetur
-          fugit laboriosam sapiente ratione consequatur eius quia, tenetur quis
-          omnis qui deleniti nemo. Reiciendis consequatur optio aperiam, facilis
-          hic id odio accusantium ullam atque, consectetur obcaecati tenetur
-          dolorum neque laudantium distinctio voluptatibus ad nulla ipsam! Totam
-          quo consequuntur sequi quos eveniet corrupti mollitia, suscipit
-          accusantium, doloribus, error quasi sunt! Cumque rem totam explicabo.
-        </p>
+        <p className="project-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis, expedita nihil quasi voluptates vitae quibusdam, beatae repellat minus inventore explicabo voluptate, quo provident ad distinctio similique enim nam iure dolorem ea a. Vero totam eaque neque dolores non, voluptas, ratione asperiores quaerat debitis eius a vel quidem atque optio corrupti vitae assumenda adipisci iusto! Sunt cum quo nemo veniam. Velit beatae autem earum officia maiores asperiores, impedit error assumenda.</p>
       </div>
 
       <div className="team-encloser">
@@ -33,6 +18,7 @@ const ProjectContent = () => {
         <p>Person1</p>
         <p>Person1</p>
       </div>
+
     </>
   );
 };

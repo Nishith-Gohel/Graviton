@@ -13,11 +13,19 @@ import ProtectedRoutes from "./Components/ProtectedRoutes";
 import ProtectLogin from "./Components/ProtectLogin";
 
 import ProjectPage from "./Project Specs/ProjectPage";
-import ScrumBacklog from "./Project Specs/ScrumBacklog";
-
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectContent from "./Project Specs/ProjectContent";
+import ScrumBacklog from "./Project Specs/ScrumBacklog";
+import Issues from "./Project Specs/Issues";
+import Team from "./Project Specs/Team";
+import ProjectSettings from "./Project Specs/ProjectSettings";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
+
 
 function App() {
   return (
@@ -31,10 +39,15 @@ function App() {
             <Route path="about" element={<About />} />
 
             <Route path="addProject" element={<AddProject />} />
-            <Route path="ProjectPage" element={<ProjectPage />}>
+            
+          </Route>
+
+          <Route path="/ProjectPage" element={<ProjectPage />}>
               <Route index element={<ProjectContent />} />
               <Route path="ScrumBacklog" element={<ScrumBacklog />} />
-            </Route>
+              <Route path="Issues" element={<Issues />} />
+              <Route path="Team" element={<Team />} />
+              <Route path="ProjectSettings" element={<ProjectSettings />} />
           </Route>
 
           <Route path="/login" element={<ProtectLogin />}>

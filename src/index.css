@@ -212,7 +212,7 @@ html, body, #root, #root>div {
 
 .details-enclosed{
   width: 50%;
-  margin: 32px auto 5px;
+  margin: 148px auto 5px;
 }
 
 .input-fields{
@@ -310,6 +310,11 @@ html, body, #root, #root>div {
   top: 87px;
 }
 
+/* ProjectPage Component ends here */
+
+
+/* ProjectContent Component */
+
 .project-img{
   width: 90px;
   height: 90px;
@@ -325,7 +330,7 @@ html, body, #root, #root>div {
 .team-encloser{
   width: 16%;
   position: absolute;
-  top: 32px;
+  top: 40px;
   right: 48px;
 }
 
@@ -340,6 +345,5 @@ html, body, #root, #root>div {
   font-weight: 400;
 }
 
-
-/* ProjectPage Component ends here */
+/* ProjectContent Component ends here */
 

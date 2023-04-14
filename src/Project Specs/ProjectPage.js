@@ -17,15 +17,16 @@ const ProjectPage = () => {
                     <Link className="nav-link menu-items" to="/ProjectPage/ScrumBacklog"> <img src="Images and SVGs/Scrum.png" className="scrum-img"/> Scrum Backlog </Link>
                 </li>
                 <li className="nav-item list-items">
-                    <Link className="nav-link menu-items" to="*"> <span class="material-symbols-outlined side-menu-icons">bookmark</span> Issues </Link>
+                    <Link className="nav-link menu-items" to="/ProjectPage/Issues"> <span class="material-symbols-outlined side-menu-icons">bookmark</span> Issues </Link>
                 </li>
                 <li className="nav-item list-items team-top-gap">
-                    <Link className="nav-link menu-items" to="*"> <span class="material-symbols-outlined side-menu-icons">group</span> Team </Link>
+                    <Link className="nav-link menu-items" to="/ProjectPage/Team"> <span class="material-symbols-outlined side-menu-icons">group</span> Team </Link>
                 </li>
                 <li className="nav-item list-items">
-                    <Link className="nav-link menu-items" to="*"> <span class="material-symbols-outlined side-menu-icons">settings</span> Settings </Link>
+                    <Link className="nav-link menu-items" to="/ProjectPage/ProjectSettings"> <span class="material-symbols-outlined side-menu-icons">settings</span> Settings </Link>
                 </li>
             </ul>
+
             <div id="content-div">
                 <Outlet />
             </div>
