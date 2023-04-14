@@ -1,9 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
-import { Link } from 'react-router-dom'
-import ProjectContent from './ProjectContent'
-import ScrumBacklog from './ScrumBacklog'
-import{ Routes, Route} from "react-router-dom"
+import { Link, Outlet } from 'react-router-dom'
 
 
 const ProjectPage = () => {
@@ -29,11 +26,9 @@ const ProjectPage = () => {
                     <Link className="nav-link menu-items" to="*"> <span class="material-symbols-outlined side-menu-icons">settings</span> Settings </Link>
                 </li>
             </ul>
-            
-            <Routes>
-                <Route path='/' element={<ProjectContent />}/>
-                <Route path='/ScrumBacklog' element={<ScrumBacklog />}/>
-            </Routes>
+            <div id="content-div">
+                <Outlet />
+            </div>
         </div>
     )
 }
