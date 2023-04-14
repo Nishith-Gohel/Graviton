@@ -41,8 +41,9 @@ function App() {
             <Route path='addProject' element={<AddProject />}/>
           </Route>
 
-          <Route path='/ProjectPage' element={<ProtectProject/>}>
-            <Route path='/ProjectPage' element={<ProjectPage/>} />
+          <Route path='/ProjectPage' element={<ProtectProject />}>
+            <Route path='/ProjectPage' element={<ProjectPage />} />
+            <Route path='ScrumBacklog' element={<ProjectPage />}></Route>
           </Route>
 
           <Route path='/login' element={<ProtectLogin/>}>
