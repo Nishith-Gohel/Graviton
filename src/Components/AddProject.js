@@ -45,7 +45,7 @@ const AddProject = () => {
                 <form onSubmit={handleCreate}>
                     <div className="form-outline input-fields">
                         <label htmlFor="project-name" className="form-label">Project name <span className='required'>*</span> </label>
-                        <input class="form-control" type="text" id="project-name" 
+                        <input className="form-control" type="text" id="project-name" 
                             name="name"
                             value={details.name}
                             onChange={(event) => 

@@ -347,3 +347,129 @@ html, body, #root, #root>div {
 
 /* ProjectContent Component ends here */
 
+
+/* ScrumBacklog Component */
+
+.prime-encloser{
+  margin-top: 18px;
+}
+
+.scrum-stats-bar{
+  background-color: #AAFFFF;
+}
+
+.progress-bar{
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  height: 40px;
+}
+
+.stats{
+  display: inline-block;
+  margin: 0 16px 0;
+  position: relative;
+  bottom: 14px;
+}
+
+.mid-div{
+  margin-top: 48px;
+}
+
+.backlog-heading{
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.story-count{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.add-icon{
+  position: relative;
+  top: 6px;
+}
+
+.add-story-button{
+  width: 18%;
+  background-color: #9BFAEC;
+  border-radius: 7px;
+}
+
+#story-desc-form{
+  margin-top: 25px;
+  height: 270px;
+}
+
+.story-attributes-form{
+  margin-bottom: 25px;
+}
+
+
+.user-stories{
+  margin-top: 48px;
+}
+
+.story-details{
+  display: inline-block;
+}
+
+.story-points{
+  width: 20px;
+  margin-left: 3.5rem;
+  margin-right: 0.5rem;
+  text-align: end;
+}
+
+
+.sprints{
+  display: inline-block;
+}
+
+.add-sprint{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #505050;
+  position: relative;
+  top: 5px;
+}
+.add-sprint:hover{
+  color: #0099FF;
+}
+
+.date-inputs{
+  display: inline-block;
+  width: 48%;
+  margin-top: 16px;
+}
+
+.sprint-details{
+  margin-top: 40px;
+}
+
+.keep-left{
+  display: inline-block;
+}
+.sprint-name{
+  color: #0099FF;
+}
+
+.keep-right{
+  display: inline-block;
+}
+#closed{
+  margin-bottom: 0.5rem;
+}
+
+.sprint-taskboard{
+  width: 100%;
+  background-color: #B9B9B9;
+}
+
+.sprint-taskboard:hover{
+  background-color: #949494;
+}
+
+/* ScrumBacklog Component ends here */
