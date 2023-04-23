@@ -19,17 +19,14 @@ html, body, #root, #root>div {
   height: 100%
 }
 
+/*  */
 
 .required {
   color: crimson;
 }
 
-/* .login-image{
-  background-image: url("https://images.hdqwalls.com/wallpapers/aurora-background-0i.jpg");
-} */
-
-.login-style {
-  padding-top: 85px;
+.login-singup-rootDiv{
+  background-color: #b4f8de4f;
 }
 
 .enclosing-div {
@@ -39,12 +36,23 @@ html, body, #root, #root>div {
   top: 56px;
   left: 500px;
   border-radius: 11px;
+  background-color: white;
+}
+
+.login-style {
+  padding-top: 85px;
 }
 
 .bringFront {
   position: relative;
   z-index: 1;
 }
+
+/* Login Component */
+.login-button{
+  width: 9%;
+}
+/* Login Component ends here */
 
 /* Header Component */
 
@@ -398,13 +406,12 @@ html, body, #root, #root>div {
   border-radius: 7px;
 }
 
-#story-desc-form{
-  margin-top: 25px;
-  height: 270px;
-}
-
 .story-attributes-form{
   margin-bottom: 25px;
+}
+
+#story-desc-form{
+  height: 208px;
 }
 
 
@@ -473,3 +480,71 @@ html, body, #root, #root>div {
 }
 
 /* ScrumBacklog Component ends here */
+
+.category-btn{
+  width: 50%;
+}
+
+/* Issues Component */
+
+#issue-encloser{
+  padding: 20px 40px 0;
+}
+
+.issue-heading{
+  display: inline-block;
+}
+
+.add-issue-button{
+  width: 11%;
+  background-color: #9BFAEC;
+  border-radius: 7px;
+}
+
+.issue-input{
+  margin-bottom: 25px;
+}
+
+#issue-desc-form{
+  height: 302px;
+}
+
+
+.issues{
+  margin-top: 20px;
+}
+
+.issue-info{
+  margin-bottom: 12px;
+}
+
+.issue-details-heading{
+  display: inline-block;
+  margin: 0 40px 0;
+}
+
+.issue-details{
+  display: inline-block;
+}
+
+.type{
+  width: 96px;
+  margin-left: 40px;
+}
+.priority{
+  width: 53px;
+  margin-left: 20px;
+}
+.issue-subject{
+  margin-left: 96px;
+}
+.status{
+  width: 98px;
+}
+.assigned-to{
+  width: 101px;
+  margin-right: 40px;
+  margin-left: 36px;
+}
+
+/* Issues Component ends here */

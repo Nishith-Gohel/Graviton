@@ -14,7 +14,7 @@ const ProjectPage = () => {
                     <Link className="nav-link text-center project-title-gap" to="/ProjectPage"> <strong>Test Project</strong>  </Link>
                 </li>
                 <li className="nav-item list-items">
-                    <Link className="nav-link menu-items" to="/ProjectPage/ScrumBacklog"> <img src="Images and SVGs/Scrum.png" className="scrum-img"/> Scrum Backlog </Link>
+                    <Link className="nav-link menu-items" to="/ProjectPage/ScrumBacklog"> <img src="/Images and SVGs/Scrum.png" className="scrum-img"/> Scrum Backlog </Link>
                 </li>
                 <li className="nav-item list-items">
                     <Link className="nav-link menu-items" to="/ProjectPage/Issues"> <span class="material-symbols-outlined side-menu-icons">bookmark</span> Issues </Link>

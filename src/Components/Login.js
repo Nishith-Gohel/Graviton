@@ -55,12 +55,12 @@ const Login = () => {
 
     return (
         <>
-            <div style={{backgroundColor: "#b4f8de4f"}}>
-                <div className='enclosing-div' style={{backgroundColor: "white"}}></div>
+            {/* <div style={{backgroundColor: "#b4f8de4f"}}> */}
+            <div className='login-singup-rootDiv'>
+                <div className='enclosing-div'></div>
                 <main className="form-signin login-style">
                     
                     <form className='text-center bringFront' onSubmit={handleLogin}>
-                        {/* <img className="mb-4" src="https://i.pinimg.com/originals/32/cd/ba/32cdbaf00c6828825fadbb5cf6ecea16.png" alt="" width="72" height="57" /> */}
                         <img className="mb-4" src="Images and SVGs/Graviton Brand Logo.png" alt="" width="90" height="90" />
                         <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -97,7 +97,7 @@ const Login = () => {
                             </label>
                         </div>
 
-                        <button className="btn btn-lg btn-primary mb-4" type="submit" style={{width:"9%"}}>Login</button>
+                        <button className="btn btn-lg btn-primary mb-4 login-button" type="submit">Login</button>
                         
                         <p className='text-muted'>Don't have an account ? </p>
                         <Link className="nav-link" to="/signup">

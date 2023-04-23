@@ -53,8 +53,9 @@ const SignUp = () => {
 
   return (
     <>
-      <div style={{backgroundColor: "#b4f8de4f"}}>
-        <div className='enclosing-div' style={{backgroundColor: "white"}}></div>
+      {/* <div style={{backgroundColor: "#b4f8de4f"}}> */}
+      <div className='login-singup-rootDiv'>
+        <div className='enclosing-div'></div>
         <main className="form-signin login-style">
 
           <form className='bringFront' onSubmit={handleSubmit}>

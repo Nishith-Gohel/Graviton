@@ -19,7 +19,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg bg-body-light" id="header-style">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                    <img src="Images and SVGs/Brand Logo Header.png" alt="Brand Logo" id="logo" />
+                    <img src="/Images and SVGs/Brand Logo Header.png" alt="Brand Logo" id="logo" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@ const Header = () => {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                                <img src="Images and SVGs/User Profile.jpg" alt="User profile" class="user-image" />
+                                <img src="/Images and SVGs/User Profile.jpg" alt="User profile" class="user-image" />
                                 <h3 className="user-details dropdown-header">{userName}</h3> 
                                 <h6 className="user-details dropdown-header">{userEmail}</h6>
                             </li>
