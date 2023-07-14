@@ -114,6 +114,7 @@ html, body, #root, #root>div {
 .heading{
   margin-top: 135px;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .working-on{
@@ -167,6 +168,8 @@ html, body, #root, #root>div {
 /* Footer Component */
 
 #footer-style{
+  position: fixed;
+  bottom: 0;
   width: 100%;
 }
 
@@ -481,13 +484,10 @@ html, body, #root, #root>div {
 
 /* ScrumBacklog Component ends here */
 
-.category-btn{
-  width: 50%;
-}
 
 /* Issues Component */
 
-#issue-encloser{
+#issue-wrapper{
   padding: 20px 40px 0;
 }
 
@@ -509,10 +509,10 @@ html, body, #root, #root>div {
   height: 302px;
 }
 
-
-.issues{
-  margin-top: 20px;
+.category-btn{
+  width: 50%;
 }
+
 
 .issue-info{
   margin-bottom: 12px;
@@ -548,3 +548,60 @@ html, body, #root, #root>div {
 }
 
 /* Issues Component ends here */
+
+
+/* Teams Component */
+
+#teams-wrapper{
+  padding: 24px 48px 0;
+}
+
+.teams-heading{
+  display: inline-block;
+}
+
+.add-member-button{
+  width: 14%;
+  background-color: #9BFAEC;
+  border-radius: 7px;
+}
+
+.member-detail-input{
+  margin-bottom: 25px;
+}
+
+
+.ruler{
+    height: 0;
+    border-style: none;
+    border-top: 3px solid gray;
+    margin: 0;
+}
+
+.equal-width{
+    flex: 1 1 0;
+}
+
+/* Teams Component ends here */
+
+
+/* Pricing Component starts here */
+
+.container {
+  max-width: 960px;
+  margin-top: 87px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.text-bg-creamy{
+    background-color: #e9e9e9;
+}
+
+.footer-bg{
+    background-color: #ededed;
+}
+
+/* Pricing Component ends here */

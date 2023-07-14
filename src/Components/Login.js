@@ -8,14 +8,18 @@ const Login = () => {
         password: ""
     })
 
-    const navigate = useNavigate();
+    const navigate = useNavigate();  
 
     const handleLogin = (event) => {
         event.preventDefault();
+        let regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
+
         if (input.email === "")
             alert("Please enter your email");
         else if (input.password === "")
             alert("Please enter your password");
+        else if(!regex.test(input.email))
+            alert("Please enter a valid email");
 
         // const loggedUser = JSON.parse(localStorage.getItem("user"));
         // console.log(loggedUser);

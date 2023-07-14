@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Graviton <img src="public/Images and SVGs/Graviton Brand Logo.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Overview 📖
+Graviton is an agile management tool that aims to cater the need of developers to manage the project lifecycle from starting till its end. The tool is developed primarily using `React.js` and `Bootstrap` as a utility for developing the UI along with custom CSS. It offers multiple useful functionalities such as initiating a project, creating user stories, issues / bugs and organizing them under sprints for a particular project, mamaging team members, assigning tasks / issues to members comprising of of an intuitive and pleasant UI that enhances the user experience.
+<br>
 
-In the project directory, you can run:
+### Features ⚡
 
-### `npm start`
+- User login and input data validation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Home Page or a Dashboard that the user would land to, post login
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `User role assignment` : Product owner, Manager, Tester, Frontend developer, Backend developer, Fullstack developer, Designer, Stakeholder and `user stories` which could be of these types : New, In Progress, Ready for test, done, archived. `Issue` types : New, In Progress, Needs info, rejected, postponed, Ready for test, closed
 
-### `npm test`
+- Team building or creating new members for the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Assign project task to teams / team members
 
-### `npm run build`
+- Team could be able to communicate on the platform itself for ongoing project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Organize user stories, issues, tasks of the project under certain sprints
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Track, manage and report bugs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Track the work status like how much of a particular task is completed
+<br>
 
-### `npm run eject`
+### Running locally ⚙️
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Since the tool is developed using `React.js` it requires `Node.js` to be installed on your machine. LTS version 18 or higher is preferable. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fork the repository and clone into a local directory. Open the terminal into the project directory and run `npm intall` command which will install all the required modules. You can also check the list of required node modules by running `npm list` in the terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After successful setup of the project run `npm start` and woohoo 🤩 !! Your project is up and running 💪 on port `localhost:3000`. That's cool 😎

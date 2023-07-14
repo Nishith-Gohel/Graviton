@@ -23,7 +23,7 @@ const SignUp = () => {
       alert("Please enter your email");
 
     else if (!regex.test(email))
-      alert("Please a VALID email");
+      alert("Please enter a VALID email");
 
     else if(input.password === "")
       alert("Please enter your password");
@@ -79,7 +79,7 @@ const SignUp = () => {
             </div>
 
             <div className="form-outline mx-auto field-style w-25 m-3">
-              <label for="exampleInputEmail1" className="form-label">Email address <span className='required'>*</span></label>
+              <label htmlFor="exampleInputEmail1" className="form-label">Email address <span className='required'>*</span></label>
               <input type="email" className="form-control" id="exampleInputEmail1"
                 name='email'
                 value={input.email}
@@ -93,7 +93,7 @@ const SignUp = () => {
             </div>
 
             <div className="form-outline mx-auto w-25 m-3">
-              <label for="exampleInputPassword1" className="form-label">Password <span className='required'>*</span></label>
+              <label htmlFor="exampleInputPassword1" className="form-label">Password <span className='required'>*</span></label>
               <input type="password" className="form-control" id="exampleInputPassword1"
                 name='password'
                 value={input.password}

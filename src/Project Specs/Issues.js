@@ -59,7 +59,7 @@ const Issues = () => {
 
   return (
     <>
-      <div id='issue-encloser'>
+      <div id='issue-wrapper'>
         <h2 className='h2 issue-heading'>Issues</h2>
         <button type="button" className="btn btn-light shadow-sm float-end add-issue-button" data-bs-toggle="modal" data-bs-target="#issue-modal"> 
             <span className="material-symbols-outlined add-icon">add</span> NEW ISSUE
@@ -223,7 +223,7 @@ const Issues = () => {
                           </div>
 
                           <div className="modal-footer">
-                            <button type="button" className="btn btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
                             <button type="submit" className="btn btn-primary">Create</button>
                           </div>
                     </form>
@@ -232,7 +232,7 @@ const Issues = () => {
         </div>
 
 
-        <div className='issues'>
+        <div className='mt-5'>
             <div className='issue-info'>
                 <h6 className='h6 issue-details-heading'>TYPE</h6>
                 <h6 className='h6 issue-details-heading'>PRIORITY</h6>
@@ -254,7 +254,7 @@ const Issues = () => {
             </div>
 
             <div className='issues-listing'>
-              <div className='issue-details type'><p>Quesrtion</p></div>
+              <div className='issue-details type'><p>Question</p></div>
               <div className='issue-details priority'><p>High</p></div>
               <div className='issue-details issue-subject'><p>See whether the end alignment issue in issues page gets resolved</p></div>
               <div className='float-end'>
