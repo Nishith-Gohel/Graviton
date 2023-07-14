@@ -1,4 +1,4 @@
-# Graviton <img src="public/Images and SVGs/Graviton Brand Logo.png">
+# Graviton <img src="public/Images%20and%20SVGs/Graviton%20Brand%20Logo.png">
 
 
 ### Overview 📖
